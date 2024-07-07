@@ -6,9 +6,15 @@
         let currentCount = parseInt($counter.textContent);
         if($targetButton.textContent === "+"){
             $counter.textContent = currentCount + 1;
-        } else {
+        } else　if ($targetButton.textContent === "-") {
             $counter.textContent = currentCount - 1;
+        } else if ($targetButton.textContent === "+10") {
+            $counter.textContent = currentCount + 10;
+        } else if ($targetButton.textContent === "-10") {
+            $counter.textContent = currentCount - 10;
         }
+
+
     }
 
 
