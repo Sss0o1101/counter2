@@ -27,3 +27,16 @@
     opacity: 0.8;
     transition: opacity .25s;
 }
+
+#js-image {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    height: 30%;
+}
+
+#js-image-alt {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #065e42;
+}
